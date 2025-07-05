@@ -1,5 +1,13 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Inter, Comic_Neue } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({
+  subsets:['latin']
+});
+
+const comic = Comic_Neue({
+  subsets:['latin'], weight:['300', '400', '700']
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
