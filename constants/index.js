@@ -1,71 +1,75 @@
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Full-stack developer and UofT engineering student passionate about building AI-driven, user-focused web and mobile apps using React, Next.js, Firebase, and scalable backend technologies.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a driven full-stack developer and computer engineering student at the University of Toronto with a strong foundation in software development and a passion for building impactful digital experiences.
+ With hands-on experience developing scalable web and mobile applications, I specialize in technologies like React, Next.js, Firebase, and Node.js, and have worked on projects ranging from AI-powered fitness trackers to internal enterprise systems.
+  My portfolio includes building responsive front-ends, integrating real-time databases, and leveraging AI APIs to enhance user interaction. 
+  I bring a creative, problem-solving mindset honed through internships, hackathons, and academic research. With a commitment to continuous learning and innovation, I aim to craft solutions that are both technically robust and user-centric.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "05/2024 - 07/2024",
+    role: "Intern",
+    company: "AG PolyPacks",
+    description: `Managed IT infrastructure at AG Poly Packs by deploying Sophos firewall and mitigating ransomware threats. Maintained attendance-equipment logs and supported Instagram marketing. Additionally, developed AG HelpDesk, an internal ticketing system with role-based dashboards, Firebase authentication, and real-time issue tracking using Next.js, React, and Firestore.`,
+    technologies: ["Javascript", "React.js", "Next.js", "Firebase"],
   },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  // {
+  //   year: "2022 - 2023",
+  //   role: "Frontend Developer",
+  //   company: "Adobe",
+  //   description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+  //   technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+  // },
+  // {
+  //   year: "2021 - 2022",
+  //   role: "Full Stack Developer",
+  //   company: "Facebook",
+  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+  // },
+  // {
+  //   year: "2020 - 2021",
+  //   role: "Software Engineer",
+  //   company: "Paypal",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  // },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: '/project-1.jpg',
+    link:'',
+    title: "OuTrack (AI-Powered Workout Tracker App) ",
+    image: '/project-1.png',
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "OuTrack is an AI-powered mobile fitness app built with React Native and Firebase that logs workouts, tracks progress, and uses GPT to provide personalized, adaptive exercise suggestions based on user feedback.",
+    technologies: ["React-Native", "Expo", "NativeWind", "Firebase", "Node.js", "ChatGPT"],
   },
   {
-    title: "Task Management App",
-    image: '/project-2.jpg',
+    title: "AG HelpDesk",
+    image: '/project-2.png',
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "AG HelpDesk is an internal ticketing system built with Next.js, React, and Firebase, featuring role-based dashboards, real-time updates, and secure authentication to streamline issue reporting and resolution within departments.",
+    technologies: ["Next.js","React" ,"TailwindCSS", "Firebase-Auth", "Firestore"],
   },
   {
     title: "Portfolio Website",
     image: '/project-3.jpg',
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["JavaScript", "TailwindCSS", "Framer-Motion", "Next.js", "React"],
   },
   {
-    title: "Blogging Platform",
+    title: "Task App",
     image: '/project-4.jpg',
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "MyTask is a task management app built with React and Firebase, enabling users to create, track, and update personal to-dos with real-time syncing, intuitive UI, and deadline reminders.",
+    technologies: ["Expo", "React-Native", "NativeWindCSS", "AsyncStorage"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "298 Jarvis St, Toronto, ON M5B 2M4 ",
+  phoneNo: "+1 437 665 8733 , +91 98213 82327",
+  email: "rohandaga05@gmail.com",
 };
